@@ -35,10 +35,10 @@ Desenvolver um aplicação em Node, o usuário cadastra um filme, preenche com a
 <br>
 <br>
  Com base na modelagem de Usuário, Filme e tags. Foram criados o código para criar as tabelas, criados os processos da aplicação para criar, deletar os registros de usuário, filmes e tags. Ao salvar a senah do usuário, foi utilizado o pacote 'bcryptjs' para criptografar a senha.
-Realizei validações em alguns processos:
-&nbsp;&nbsp;&nbsp;- Validar o email do usuário, para não permitir cadastrar o mesmo usuário.
-&nbsp;&nbsp;&nbsp;- Ao deletar usuário, validar se o registro está relacionado a um filme.
-&nbsp;&nbsp;&nbsp;- Ao deletar filme, validar se o registro está relacionado a uma tag.
+Realizei validações em alguns processos:<br>
+&nbsp;&nbsp;&nbsp;- Validar o email do usuário, para não permitir cadastrar o mesmo usuário. <br>
+&nbsp;&nbsp;&nbsp;- Ao deletar usuário, validar se o registro está relacionado a um filme. <br>
+&nbsp;&nbsp;&nbsp;- Ao deletar filme, validar se o registro está relacionado a uma tag. <br>
 &nbsp;&nbsp;&nbsp;- Ao deletar uma tag, se passar o id do registro que não existe processo valida.
 <br>
 <br>
